@@ -1,0 +1,204 @@
+2013/11/12 16:40:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "auth"。' in /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php:286
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController('auth')
+#1 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/worker/data/www/innertools/public/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/auth
+---
+2013/11/12 16:40:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "test"。' in /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php:286
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController('test')
+#1 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/worker/data/www/innertools/public/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/test
+---
+2013/11/12 16:40:48 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:40:50 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:40:51 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:41:03 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:41:04 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:41:04 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:41:04 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:41:28 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:41:29 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:41:29 [error] [php] require_once(vendors/yammer/oauth.php): failed to open stream: No such file or directory (/home/worker/data/www/innertools/protected/helpers/YammerHelper.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /home/worker/data/www/innertools/protected/controllers/SiteController.php(12): spl_autoload_call()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/actions/CInlineAction.php(49): SiteController->actionAuth()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): SiteController->runAction()
+#5 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): SiteController->run()
+#7 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/site/auth
+2013/11/12 16:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "yammer/callback"。' in /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php:286
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController('yammer/callback')
+#1 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/worker/data/www/innertools/public/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/yammer/callback?code=fjttzOaPpssqNUxwPw2Rg
+---
+2013/11/12 16:58:03 [error] [php] Undefined index: users (/home/worker/data/www/innertools/protected/controllers/YammerController.php:16)
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): YammerController->runAction()
+#1 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): YammerController->runActionWithFilters()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): YammerController->run()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/yammer/callback?code=fjttzOaPpssqNUxwPw2Rg
+2013/11/12 16:58:53 [error] [php] Undefined index: users (/home/worker/data/www/innertools/protected/controllers/YammerController.php:12)
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): YammerController->runAction()
+#1 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): YammerController->runActionWithFilters()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): YammerController->run()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /home/worker/data/www/innertools/public/index.php(20): CWebApplication->run()
+REQUEST_URI=/yammer/callback?code=fjttzOaPpssqNUxwPw2Rg
+2013/11/12 16:59:41 [error] [php] Array to string conversion (/home/worker/data/www/innertools/protected/controllers/YammerController.php:21)
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): YammerController->runAction()
+#1 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): YammerController->runActionWithFilters()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): YammerController->run()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /home/worker/data/www/innertools/public/index.php(22): CWebApplication->run()
+REQUEST_URI=/yammer/callback?code=fjttzOaPpssqNUxwPw2Rg
+in /home/worker/data/www/innertools/protected/controllers/YammerController.php (21)
+in /home/worker/data/www/innertools/public/index.php (22)
+2013/11/12 16:59:48 [error] [php] Array to string conversion (/home/worker/data/www/innertools/protected/controllers/YammerController.php:21)
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(286): YammerController->runAction()
+#1 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(265): YammerController->runActionWithFilters()
+#2 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): YammerController->run()
+#3 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /home/worker/data/www/innertools/public/index.php(22): CWebApplication->run()
+REQUEST_URI=/yammer/callback?code=fjttzOaPpssqNUxwPw2Rg
+in /home/worker/data/www/innertools/protected/controllers/YammerController.php (21)
+in /home/worker/data/www/innertools/public/index.php (22)
+2013/11/13 17:59:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "auth" 动作.' in /home/worker/data/www/lib/yii-1.1.13/web/CController.php:483
+Stack trace:
+#0 /home/worker/data/www/lib/yii-1.1.13/web/CController.php(270): CController->missingAction('auth')
+#1 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(282): CController->run('auth')
+#2 /home/worker/data/www/lib/yii-1.1.13/web/CWebApplication.php(141): CWebApplication->runController('site/auth')
+#3 /home/worker/data/www/lib/yii-1.1.13/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/worker/data/www/innertools/public/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/auth
+---
